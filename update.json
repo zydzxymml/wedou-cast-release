@@ -1,8 +1,8 @@
 {
-  "versionCode": 254,
-  "versionName": "2.4.14",
-  "apk": "apk/WeDouCast_v2.4.14.apk",
-  "md5": "eee65180251d781bbce6d75868021b5c",
+  "versionCode": 255,
+  "versionName": "2.4.15",
+  "apk": "apk/WeDouCast_v2.4.15.apk",
+  "md5": "0f6c2be734f09597c8bbe4e3dc7cadaa",
   "published": "2026-10-10",
-  "notes": "本版与 2.4.13 功能相同。\n历史修复：安装路径问题(11)、下载后不触发安装（卡100%）、盒子发送端竖屏投屏失败。"
+  "notes": "修复电视/盒子上投屏页面超出屏幕边缘的问题（补齐电视 overscan 安全区，与首页一致）。"
 }
