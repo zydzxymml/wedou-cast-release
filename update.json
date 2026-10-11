@@ -1,8 +1,8 @@
 {
-  "versionCode": 255,
-  "versionName": "2.4.15",
-  "apk": "apk/WeDouCast_v2.4.15.apk",
-  "md5": "0f6c2be734f09597c8bbe4e3dc7cadaa",
-  "published": "2026-10-10",
-  "notes": "修复电视/盒子上投屏页面超出屏幕边缘的问题（补齐电视 overscan 安全区，与首页一致）。"
+  "versionCode": 306,
+  "versionName": "2.5.5",
+  "apk": "apk/WeDouCast_v2.5.5.apk",
+  "md5": "4612bc7b93b8aed714888d99bca45874",
+  "published": "2026-10-12",
+  "notes": "自 v2.4.15 起累积更新：全新 Logo（小老鼠抱电视）；平板形态识别；首页/设备列表/投屏页三页电视安全区；横屏操作界面修复；画质档改箭头按钮；投屏画面（SurfaceView）补入 overscan 安全区，电脑全屏画面投电视不再超出屏幕。"
 }
