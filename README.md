@@ -1,6 +1,11 @@
 # 微豆投屏 WeDouCast — 版本发布仓库
 
-局域网无线投屏（手机 → 电视/盒子），本仓库只存放**安装包与版本信息**，供已安装的 App 检查更新使用。
+局域网无线投屏（手机/电脑 → 电视/盒子），本仓库只存放**安装包与版本信息**，供已安装的 App 检查更新使用。
+
+## 下载
+
+- **安卓 APK**：`apk/WeDouCast_v2.5.5.apk`（当前版本，见 `update.json`）
+- **电脑版 Windows**：右侧 Releases 下载最新 exe（如 `PC-v1.5.4`）
 
 ## 检查更新机制
 
@@ -13,10 +18,10 @@
 1. 编译新版本 APK
 2. 放入 `apk/`（文件名 `WeDouCast_v版本号.apk`，ASCII）
 3. 更新根目录 `update.json`（versionCode 必须递增，md5 填新包校验值）
-4. 推送到 main 分支
+4. 推送到 main 分支（PC 版另发 Release，exe 体积大不走 jsDelivr）
 
 ## 下载源
 
 App 优先走 jsDelivr CDN（`cdn.jsdelivr.net/gh/zydzxymml/wedou-cast-release@main/...`），失败回落 `raw.githubusercontent.com`。
 
-> 注意：jsDelivr 对分支文件有最长约 12 小时的 CDN 缓存，新版本发布后更新提示可能延迟数小时，属正常现象。
+> 注意：jsDelivr 对分支文件有最长约 12 小时的 CDN 缓存，新版本发布后更新提示可能延迟数小时，属正常现象（发布后应主动 purge）。
