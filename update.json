@@ -1,8 +1,8 @@
 {
-  "versionCode": 306,
-  "versionName": "2.5.5",
-  "apk": "apk/WeDouCast_v2.5.5.apk",
-  "md5": "4612bc7b93b8aed714888d99bca45874",
+  "versionCode": 307,
+  "versionName": "2.5.6",
+  "apk": "apk/WeDouCast_v2.5.6.apk",
+  "md5": "9b50b3b5019b08e7142e5995763261cb",
   "published": "2026-10-12",
-  "notes": "自 v2.4.15 起累积更新：全新 Logo（小老鼠抱电视）；平板形态识别；首页/设备列表/投屏页三页电视安全区；横屏操作界面修复；画质档改箭头按钮；投屏画面（SurfaceView）补入 overscan 安全区，电脑全屏画面投电视不再超出屏幕。"
+  "notes": "修复「检查更新失败 Connection reset」：更新服务器域名在国内被间歇重置，扩充为 4 个候选源（jsDelivr 主源/Fastly/Cloudflare + GitHub Raw 兜底），任一可用即可完成检查与下载；检查失败提示文案更准确。"
 }
