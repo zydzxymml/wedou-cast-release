@@ -1,8 +1,8 @@
 {
-  "versionCode": 307,
-  "versionName": "2.5.6",
-  "apk": "apk/WeDouCast_v2.5.6.apk",
-  "md5": "9b50b3b5019b08e7142e5995763261cb",
+  "versionCode": 308,
+  "versionName": "2.5.7",
+  "apk": "apk/WeDouCast_v2.5.7.apk",
+  "md5": "06ed793d9ec47d4b549c8e2720520c39",
   "published": "2026-10-12",
-  "notes": "修复「检查更新失败 Connection reset」：更新服务器域名在国内被间歇重置，扩充为 4 个候选源（jsDelivr 主源/Fastly/Cloudflare + GitHub Raw 兜底），任一可用即可完成检查与下载；检查失败提示文案更准确。"
+  "notes": "修复「检查更新」两个可靠源同时被网络重置导致失败：候选源扩为 4 个（jsDelivr 三域名 + GitHub Raw），并改为全部源询问后取版本号最大者，CDN 旧缓存不再让新版本被漏掉。"
 }
