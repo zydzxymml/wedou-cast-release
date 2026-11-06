@@ -1,8 +1,8 @@
 {
-  "versionCode": 308,
-  "versionName": "2.5.7",
-  "apk": "apk/WeDouCast_v2.5.7.apk",
-  "md5": "06ed793d9ec47d4b549c8e2720520c39",
-  "published": "2026-10-12",
-  "notes": "修复「检查更新」两个可靠源同时被网络重置导致失败：候选源扩为 4 个（jsDelivr 三域名 + GitHub Raw），并改为全部源询问后取版本号最大者，CDN 旧缓存不再让新版本被漏掉。"
+  "versionCode": 309,
+  "versionName": "2.5.8",
+  "apk": "apk/WeDouCast_v2.5.8.apk",
+  "md5": "46accd62aa825aa123994d530fb1e059",
+  "published": "2026-11-06",
+  "notes": "修复：盒子上界面被多次启动时投屏只有声音没有画面（接收器绑在不可见的实例上，视频帧全被丢弃）"
 }
